@@ -21,6 +21,8 @@
 		586438C119B010B000C36C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586438A319B010B000C36C28 /* UIKit.framework */; };
 		586438C919B010B100C36C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 586438C719B010B100C36C28 /* InfoPlist.strings */; };
 		586438CB19B010B100C36C28 /* iOSGetAddrFromdomainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586438CA19B010B100C36C28 /* iOSGetAddrFromdomainTests.m */; };
+		586438D619B010D000C36C28 /* GetAddrObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 586438D519B010D000C36C28 /* GetAddrObj.m */; };
+		586438D819B0114700C36C28 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586438D719B0114700C36C28 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		586438C619B010B100C36C28 /* iOSGetAddrFromdomainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSGetAddrFromdomainTests-Info.plist"; sourceTree = "<group>"; };
 		586438C819B010B100C36C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		586438CA19B010B100C36C28 /* iOSGetAddrFromdomainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGetAddrFromdomainTests.m; sourceTree = "<group>"; };
+		586438D419B010D000C36C28 /* GetAddrObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAddrObj.h; sourceTree = "<group>"; };
+		586438D519B010D000C36C28 /* GetAddrObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAddrObj.m; sourceTree = "<group>"; };
+		586438D719B0114700C36C28 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586438D819B0114700C36C28 /* CFNetwork.framework in Frameworks */,
 				586438A219B010B000C36C28 /* CoreGraphics.framework in Frameworks */,
 				586438A419B010B000C36C28 /* UIKit.framework in Frameworks */,
 				586438A019B010B000C36C28 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		5864389E19B010B000C36C28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				586438D719B0114700C36C28 /* CFNetwork.framework */,
 				5864389F19B010B000C36C28 /* Foundation.framework */,
 				586438A119B010B000C36C28 /* CoreGraphics.framework */,
 				586438A319B010B000C36C28 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				586438B119B010B000C36C28 /* Main.storyboard */,
 				586438B419B010B000C36C28 /* ViewController.h */,
 				586438B519B010B000C36C28 /* ViewController.m */,
+				586438D419B010D000C36C28 /* GetAddrObj.h */,
+				586438D519B010D000C36C28 /* GetAddrObj.m */,
 				586438B719B010B000C36C28 /* Images.xcassets */,
 				586438A619B010B000C36C28 /* Supporting Files */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				586438B619B010B000C36C28 /* ViewController.m in Sources */,
+				586438D619B010D000C36C28 /* GetAddrObj.m in Sources */,
 				586438B019B010B000C36C28 /* AppDelegate.m in Sources */,
 				586438AC19B010B000C36C28 /* main.m in Sources */,
 			);
